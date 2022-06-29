@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#blank {
+  height: 40px;
+  width: 100%;
+}
+#header {
+  height: 86px;
+  width: 100%;
+}
+#container {
+  width: 1398px;
+  display: flex;
+}
+#leftContainer {
+}
+#rightContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+}
+.box {
+  border: 2px solid red;
+  height: 470px;
+  width: 280px;
+}
+.box img {
+  width: 100%;
+}
+.singleLine {
+  display: flex;
+  border: 2px solid red;
+  justify-content: space-between;
+}
+.priceDiv {
+  display: flex;
+}
+.productBtn {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+}
+
+/*  */
+/*  */
+/*  */
+/*  */
+/* // for leftBox */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  background-position: center;
+}
+
+.side-bar {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  width: 290px;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-y: auto;
+}
+
+.side-bar .menu {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.side-bar .menu .item {
+  position: relative;
+  cursor: pointer;
+}
+
+.side-bar .menu .item a {
+  /* color: #fff; */
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
+
+.side-bar .menu .item a:hover {
+  /* background: #8621f8; */
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item i {
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu {
+  /* background: rgba(255, 255, 255, 0.1); */
+  display: none;
+}
+
+.side-bar .menu .item .sub-menu a {
+  padding-left: 80px;
+}
+
+.rotate {
+  transform: rotate(90deg);
+}

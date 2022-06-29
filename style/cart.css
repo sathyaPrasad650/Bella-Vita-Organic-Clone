@@ -1,0 +1,95 @@
+#cartContainer {
+  margin: auto;
+  width: 1200px;
+  margin-bottom: 50px;
+}
+#cartContainerTop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+#cartContainerTopLeft {
+  font-size: 35px;
+}
+#cartContainerTopRight {
+  font-size: 15px;
+  text-decoration: underline;
+}
+#CCM {
+  display: flex;
+}
+#CCMTOne {
+  width: 720px;
+}
+#CCMTTwo {
+  width: 350px;
+}
+#CCMTThree {
+  width: 130px;
+  text-align: end;
+}
+#CCMTOne,
+#CCMTTwo,
+#CCMTThree {
+  font-size: 12px;
+}
+#CCB {
+  /* display: flex; */
+}
+.cartBox {
+  display: flex;
+  height: 167px;
+  width: 1200px;
+}
+.imgDiv {
+  width: 120px;
+  justify-content: center;
+  padding-top: 45px;
+}
+img {
+  height: 118px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    rgba(0, 0, 0, 0.1) 0px 2px 2px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+.titleDiv {
+  padding-top: 45px;
+  padding-left: 40px;
+  /* border: 2px solid blue; */
+  width: 600px;
+}
+.qtyDiv {
+  display: flex;
+  /* border: 2px solid #475d4b; */
+  padding-top: 45px;
+  width: 350px;
+}
+.qtyDiv div {
+  /* border: 2px solid red; */
+  height: 47px;
+  width: 45px;
+  text-align: center;
+  font-size: 20px;
+  padding-top: 5px;
+  border-top: 2px solid #475d4b;
+  border-bottom: 2px solid #475d4b;
+}
+.minus {
+  border-left: 2px solid #475d4b;
+}
+.plus {
+  border-right: 2px solid #475d4b;
+}
+.remove {
+  margin-left: 10px;
+  background-color: #b7caa5;
+  border: none;
+  border-left: 2px solid #475d4b;
+  border-right: 2px solid #475d4b;
+}
+.totalDiv {
+  /* border: 2px solid black; */
+  width: 130px;
+  text-align: end;
+  padding-top: 45px;
+}

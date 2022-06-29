@@ -1,0 +1,435 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Start --> Navbar */
+#navTop {
+  height: 34px;
+  background-color: #e5f0da;
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+  /* font-size: 10; */
+  font-weight: 600;
+}
+#navTop p {
+  padding-right: 10px;
+}
+#navTop button {
+  height: 24px;
+  width: 94px;
+  padding-bottom: 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #475d4b;
+  color: white;
+  font-size: 16px;
+  text-align: center;
+}
+#navMiddle {
+  display: flex;
+  margin: auto;
+  height: 73px;
+  width: 1200px;
+  /* border: 2px solid red; */
+  align-items: center;
+}
+#navMiddleContact {
+  font-size: 24px;
+  /* border: 2px solid black; */
+  margin-left: 10px;
+}
+#navMiddleImg {
+  margin-left: 450px;
+  margin-right: 350px;
+}
+#navMiddleImg img {
+  height: 60px;
+  width: 70px;
+  padding-right: 5px;
+  padding-left: 5px;
+  /* border: 2px solid brown; */
+}
+#iconDiv {
+  display: flex;
+  /* border: 2px solid black; */
+  align-items: center;
+  font-size: 24px;
+}
+#iconDiv i {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#navBottom {
+  margin: auto;
+  height: 46px;
+  width: 1200px;
+  border-bottom: 2px solid #84a68a;
+  text-align: center;
+  padding-top: 12px;
+  margin-bottom: 20px;
+}
+dropdown {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+dropDown:hover {
+  background-color: #e5f0da;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+/* Start -> Skin Care - Drop down */
+.skinCare {
+  /* border: red 2px solid; */
+  padding-right: 10px;
+  cursor: pointer;
+}
+.skinCareContainer {
+  position: absolute;
+  width: 1100px;
+  background: #e5f0da;
+  border-radius: 8px;
+  box-shadow: 0010px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  /* border: 2px black solid; */
+  top: 151px;
+  right: 300px;
+  max-height: 0px;
+  transition: max-height 0s;
+  z-index: 10;
+}
+.skinCareContainer-height {
+  max-height: 500px;
+  z-index: 10;
+}
+/* End -> Skin Care - Drop down */
+/* Start -> Interior of Skin care & Hair care-Drop down*/
+.skinCareContainer {
+  display: flex;
+  text-align: left;
+}
+.topText {
+  /* border: 2px solid blue; */
+  height: 35px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #4b6a51;
+  font-size: 17px;
+  font-weight: 500;
+}
+.bottomText {
+  line-height: 14px;
+  font-size: 15px;
+}
+.insideDiv {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+/* End -> Interior of Skin care & Hair care-Drop down*/
+/* Start -> Drop down - Hair care */
+.hairCare {
+  /* border: red 2px solid; */
+  padding-right: 10px;
+  cursor: pointer;
+}
+.hairCareContainer {
+  position: absolute;
+  width: 700px;
+  background: #e5f0da;
+  border-radius: 8px;
+  /* box-shadow: 0010px rgba(0, 0, 0, 0.4); */
+  overflow: hidden;
+  /* border: 2px black solid; */
+  top: 151px;
+  right: 300px;
+  max-height: 0px;
+  transition: max-height 0s;
+  z-index: 10;
+}
+.hairCareContainer-height {
+  max-height: 500px;
+  z-index: 10;
+}
+/* End -> Drop down - Hair care */
+/* Start -> Interior of Hair care-Drop down*/
+.hairCareContainer {
+  display: flex;
+  text-align: left;
+}
+.insideImg {
+  margin-left: 20px;
+  margin-top: 30px;
+  width: 200px;
+}
+/* End -> Interior of Hair care-Drop down*/
+/*  */
+#navBottomHr {
+  margin-top: 0px;
+  margin: auto;
+  width: 1200px;
+}
+#cartLogo{
+  /* border: 2px solid red; */
+  cursor: pointer;
+}
+/* End --> Navbar */
+/* Start --> Home page */
+.curve {
+  border-radius: 12px;
+}
+.centerDivTop,
+.centerDivBottom {
+  margin: auto;
+  width: 1200px;
+  /* border: 2px solid blue; */
+}
+.centerDivTop > img {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.headingP {
+  color: #475d4b;
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+}
+.centerDivBottom {
+  height: auto;
+}
+.imgThree {
+  /* margin-top: 15px; */
+  margin-bottom: 30px;
+}
+#app {
+  height: 530px;
+  width: 100%;
+  /* border: 2px solid red; */
+  background-color: #e5f0da;
+}
+#appBar {
+  height: 76px;
+  position: relative;
+  /* margin-top: 200px; */
+  top: 200px;
+  width: 100%;
+  color: white;
+  background-color: #475d4b;
+  /* align-items: center; */
+}
+#phone {
+  z-index: 20;
+  position: absolute;
+  /* top: 100px; */
+  margin-top: 25px;
+  right: 1000px;
+}
+#appBar p {
+  font-size: 50px;
+  font-weight: 650;
+  margin-top: 150px;
+  padding-left: 750px;
+}
+.appInstall {
+  display: flex;
+  margin-left: 800px;
+  margin-top: 20px;
+  position: relative;
+  top: 200px;
+}
+.appInstall img {
+  height: 76px;
+  width: 200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/* End --> Home page */
+/* Start --> SlidingWindow */
+#slidingWindow {
+  margin: auto;
+  height: 399px;
+  width: 1200px;
+  margin-bottom: 20px;
+}
+/* End --> SlidingWindow */
+
+/* Start -> Sliding grid */
+#slidingDiv {
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  /* border: 2px solid green; */
+  /* width: 1164px; */
+  margin-bottom: 30px;
+  justify-content: center;
+  padding-left: 55px;
+}
+#slidingDivOne,
+#slidingDivTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  /* border: 2px solid red; */
+}
+.box {
+  /* border: 2px solid red; */
+  cursor: pointer;
+  height: 425px;
+  width: 280px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 25px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+}
+.box img {
+  width: 95%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin-bottom: 8px;
+}
+.title {
+  font-weight: 640;
+  padding-left: 8px;
+}
+.description {
+  padding-left: 8px;
+}
+.singleLine {
+  display: flex;
+  /* border: 2px solid red; */
+  padding-left: 8px;
+  padding-right: 10px;
+  height: 40px;
+  justify-content: space-between;
+}
+.discountPrice {
+  font-size: 19px;
+  font-weight: 525;
+}
+.originalPrice {
+  text-decoration: line-through;
+  padding-left: 15px;
+  font-size: 14px;
+  padding-top: 5px;
+}
+.priceDiv {
+  display: flex;
+  /* padding-top: 5px; */
+}
+.rating {
+  padding-top: 5px;
+}
+.productBtn {
+  width: 100%;
+  height: 45px;
+  border-radius: 10px;
+  background-color: #475d4b;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+/* End -> Sliding grid */
+
+/* Start -> spotLight */
+#spotLightDiv {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  /* border: 2px solid yellow; */
+  /* width: 1164px; */
+  margin-bottom: 30px;
+  justify-content: center;
+  margin: auto;
+  padding-left: 110px;
+}
+#spotLightOne,
+#spotLightTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  /* border: 2px solid red; */
+  gap: 20px;
+}
+.insideSpotLightDiv {
+  /* border: 2px solid red; */
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 4px,
+    rgba(0, 0, 0, 0.1) 0px 7px 13px -3px, rgba(0, 0, 0, 0.1) 0px -3px 0px inset;
+  border-radius: 8px;
+}
+/* .insideSpotLightDiv p */
+.spotLightImg img {
+  height: 231px;
+}
+.spotLightP {
+  /* border: 2px solid blue; */
+  /* padding-top: 8px; */
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #475d4b;
+  color: white;
+  height: 31px;
+}
+.splotLightP p {
+  text-align: center;
+}
+/* Start -> spotLight */
+
+/* Start --> Footer */
+#fooTop {
+  height: 411px;
+  display: flex;
+  /* border: 2px solid green; */
+  background-color: #f1f7ec;
+  justify-content: center;
+  padding-top: 40px;
+}
+#fooTopLeft {
+  width: 585px;
+  display: flex;
+}
+.fooTopLeftDiv {
+  width: 195px;
+  height: 281px;
+  /* border: 2px solid red; */
+  margin-right: 7px;
+}
+#fooTopRight {
+  width: 550px;
+  display: flex;
+}
+.fooTopRightDiv {
+  width: 275px;
+  height: 281px;
+  margin-right: 7px;
+  /* border: 2px solid blue; */
+}
+.footHeadP {
+  font-weight: 600;
+  padding-bottom: 8px;
+  border-bottom: 1px black solid;
+}
+.footP {
+  font-size: 14px;
+}
+#fooInput {
+  height: 45px;
+  width: 273px;
+}
+#fooBottom {
+  height: 38px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: #475d4b;
+  width: 100%;
+  padding-bottom: 3px;
+  border: none;
+}
+/* End --> Footer */
